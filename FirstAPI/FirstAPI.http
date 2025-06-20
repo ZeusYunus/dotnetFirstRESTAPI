@@ -16,21 +16,20 @@ Accept: application/json
 POST {{rootURL}}/api/books
 Content-Type: application/json
 {
-  "id": 6,
-  "title": "C# Unlocked",
-  "author": "Nizaam",
-  "yearPublished": 2024
+  "title": "C++ Unlocked",
+  "author": "Cole",
+  "yearPublished": 2021
 }
 
 ###
-PUT {{rootURL}}/api/books/5
+PUT {{rootURL}}/api/books/6
 Content-Type: application/json
 {
-  "id": 5,
-  "title": "Moby-Dick",
-  "author": "Nizaam",
-  "yearPublished": 2023
+  "id": 6,
+  "title": "c# eBook",
+  "author": "Judy",
+  "yearPublished": 2045
 }
 
 ###
-DELETE {{rootURL}}/api/books/4
+DELETE {{rootURL}}/api/books/6
